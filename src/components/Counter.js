@@ -2,8 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Counter.css';
 
-const Counter = ({ number, color, onIncrement,
-    decrement, onSetColor }) => {
+const Counter = ({ number, color, onIncrement, decrement, onSetColor }) => {
     return (
         <div
             className="Counter"
